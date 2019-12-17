@@ -1,0 +1,15 @@
+{
+  "name": "speech_http",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "koa": "2.0.0",
+    "redis": "^2.8.0",
+    "sequelize": "3.24.1",
+    "mysql": "2.16.0"
+  },
+  "script":{
+	"fix-memory-limit":"cross-env LIMIT=8000 increase-memory-limit"
+	},
+  "main": "app.js"
+}
